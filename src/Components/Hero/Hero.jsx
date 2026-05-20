@@ -11,7 +11,8 @@ function Hero() {
             <div className="hero-wrapper">
                 <div className="hero-left">
                     <h5 className="hero-title"></h5>
-                    <h2 className="hero-titles"></h2>
+                    <h2 className="hero-titles"></h2> 
+                    <p className="hero=text"></p>
                 </div>
             </div>
         </div>
