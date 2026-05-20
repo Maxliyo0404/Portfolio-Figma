@@ -6,5 +6,11 @@
     "services": "Услуги",
     "portfolio": "Портфолио",
     "contact": "Контакты"
+  },
+  "hero": {
+    "hero-helo": "Привет, это я",
+    "hero-name": "John Kendric",
+    "hero-titles": "И я <span class='highlight'>Frontend Разработчик</span>",
+    "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore"
   }
 }
