@@ -1,6 +1,9 @@
 {
     "header":{
         "logo": "Portfolio",
-        
+        "home" : "Home",
+        "Services": "Services",
+        "Portfolio": "Portfolio",
+        "Contact":  "Contact"
     }
 }
