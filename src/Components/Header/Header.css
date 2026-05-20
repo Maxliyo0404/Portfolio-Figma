@@ -20,7 +20,6 @@
     font-size: 25px;
     line-height: 100%;
     color: #FFFFFF;
-    text-decoration: none;
     z-index: 1002; 
     &:hover{
         color: #00EEFF;
