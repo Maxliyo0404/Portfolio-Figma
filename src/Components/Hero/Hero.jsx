@@ -9,7 +9,10 @@ function Hero() {
         <div className="hero">
             <div className="container"></div>
             <div className="hero-wrapper">
-                
+                <div className="hero-left">
+                    <h5 className="hero-title"></h5>
+                    <h2 className="hero-titles"></h2>
+                </div>
             </div>
         </div>
 
