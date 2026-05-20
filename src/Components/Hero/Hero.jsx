@@ -14,6 +14,12 @@ function Hero() {
                     <h2 className="hero-name">{t("hero.hero-name")}</h2> 
                    <h4 className="hero-titles" dangerouslySetInnerHTML={{ __html: t('hero.hero-titles') }} />
                     <p className="hero-text">{t("hero.hero-text")}</p>
+                    <div className="icons">
+                        <div className="icon"></div>
+                        <div className="icon"></div>
+                        <div className="icon"></div>
+                        <div className="icon"></div>
+                    </div>
                 </div>
             </div>
         </div>
