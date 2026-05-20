@@ -2,7 +2,7 @@
     "header":{
         "logo": "Portfolio",
         "home" : "Home",
-         "about": "About Us",
+         "about": "About",
         "services": "Services",
         "portfolio": "Portfolio",
         "contact":  "Contact"
