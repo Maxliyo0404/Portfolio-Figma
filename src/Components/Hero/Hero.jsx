@@ -3,6 +3,8 @@ import "./Hero.css";
 import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Hero() {
     const {t, i18n} = useTranslation();
@@ -19,8 +21,8 @@ function Hero() {
                     <div className="icons">
                         <div className="icon"><FaFacebookF /></div>
                         <div className="icon"><FaTwitter /></div>
-                        <div className="icon"></div>
-                        <div className="icon"></div>
+                        <div className="icon"><FaInstagram /></div>
+                        <div className="icon"><FaLinkedinIn /></div>
                     </div>
                 </div>
             </div>
