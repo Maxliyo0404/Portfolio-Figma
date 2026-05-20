@@ -10,9 +10,10 @@ function Hero() {
             <div className="container"></div>
             <div className="hero-wrapper">
                 <div className="hero-left">
-                    <h5 className="hero-title"></h5>
-                    <h2 className="hero-titles"></h2> 
-                    <p className="hero=text"></p>
+                    <h6 className="hero-helo">{t,("hero.hero-helo")}</h6>
+                    <h2 className="hero-name">{t,("hero.hero-name")}</h2> 
+                    <h4 className="hero-titles">{t,("hero.hero-titles")}</h4>
+                    <p className="hero-text">{t,("hero.hero-text")}</p>
                 </div>
             </div>
         </div>
