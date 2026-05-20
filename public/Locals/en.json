@@ -6,5 +6,12 @@
         "services": "Services",
         "portfolio": "Portfolio",
         "contact":  "Contact"
-    }
+    },
+    "hero": {
+    "hero-helo": "Hello, it's me",
+    "hero-name": "John Kendric",
+    "hero-titles": "And I'm a <span class='highlight'>Frontend Developer</span>",
+    "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore"
+  }
+
 }
