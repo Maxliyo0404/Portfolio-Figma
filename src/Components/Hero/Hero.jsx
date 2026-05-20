@@ -24,6 +24,7 @@ function Hero() {
                         <div className="icon"><FaInstagram /></div>
                         <div className="icon"><FaLinkedinIn /></div>
                     </div>
+                    <button className="hero-btn"></button>
                 </div>
             </div>
         </div>

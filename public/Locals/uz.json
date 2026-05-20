@@ -11,6 +11,7 @@
     "hero-helo": "Salom, bu men",
     "hero-name": "John Kendric",
     "hero-titles": "Va men <span class='highlight'>Frontend Dasturchiman</span>",
-    "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore"
+    "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore",
+    "hero-btn": "CV ni yuklab olish"
   }
 }
