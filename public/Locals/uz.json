@@ -3,8 +3,8 @@
     "logo": "Portfolio",
     "home": "Bosh sahifa",
      "about": "Biz haqimizda",
-    "Services": "Xizmatlar",
-    "Portfolio": "Portfolio",
-    "Contact": "Aloqa"
+    "services": "Xizmatlar",
+    "portfolio": "Portfolio",
+    "contact": "Aloqa"
   }
 }

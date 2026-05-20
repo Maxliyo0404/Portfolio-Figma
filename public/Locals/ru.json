@@ -3,8 +3,8 @@
     "logo": "Портфолио",
     "home": "Главная",
      "about": "О нас",
-    "Services": "Услуги",
-    "Portfolio": "Портфолио",
-    "Contact": "Контакты"
+    "services": "Услуги",
+    "portfolio": "Портфолио",
+    "contact": "Контакты"
   }
 }
