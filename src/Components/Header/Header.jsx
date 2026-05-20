@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./Header.css";
-import React from 'react'
+import React, { useState } from 'react'
 import i18next from "i18next";
 function Header() {
     const {t, i18n} = useTranslation();
@@ -31,7 +31,6 @@ function Header() {
                       <option value="en">Eng</option>
                       <option value="ru"> Rus</option>
                     </select>
-                    <button className="header-btn">{t("header.btn")}</button>
                   </div>
            </nav>
       <div className={`burger-menu ${isMenuOpen ? "active" : ""}`} onClick={toggleMenu}>
