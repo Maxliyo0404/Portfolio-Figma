@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import "./Hero.css";
 import React from 'react'
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 function Hero() {
     const {t, i18n} = useTranslation();
@@ -15,8 +17,8 @@ function Hero() {
                    <h4 className="hero-titles" dangerouslySetInnerHTML={{ __html: t('hero.hero-titles') }} />
                     <p className="hero-text">{t("hero.hero-text")}</p>
                     <div className="icons">
-                        <div className="icon"></div>
-                        <div className="icon"></div>
+                        <div className="icon"><FaFacebookF /></div>
+                        <div className="icon"><FaTwitter /></div>
                         <div className="icon"></div>
                         <div className="icon"></div>
                     </div>
