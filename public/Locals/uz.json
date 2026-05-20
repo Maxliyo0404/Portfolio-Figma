@@ -7,5 +7,10 @@
     "portfolio": "Portfolio",
     "contact": "Aloqa"
   },
-  
+   "hero": {
+    "hero-helo": "Salom, bu men",
+    "hero-name": "John Kendric",
+    "hero-titles": "Va men <span class='highlight'>Frontend Dasturchiman</span>",
+    "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore"
+  }
 }
