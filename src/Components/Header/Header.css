@@ -18,11 +18,16 @@
 
 .logo {
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
     color: #FFFFFF;
     text-decoration: none;
     z-index: 1002; 
+    &:hover{
+        color: #00EEFF;
+        cursor: pointer;
+    }
 }
 
 .header-nav {
@@ -48,6 +53,8 @@
 
 .header-link:hover {
     color: #00EEFF;
+     text-decoration: underline;
+     cursor: pointer;
 }
 
 .header-actions {
