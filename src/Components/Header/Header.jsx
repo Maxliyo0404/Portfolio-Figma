@@ -11,9 +11,13 @@ function Header() {
     <div className="header">
         <div className="container">
             <div className="header-container">
-              <a className="logo" href="#"></a>
+              <a className="logo" href="#">{t("header.logo")}</a>
               <ul className="header-list">
-                <li><a className="header-link" href="#"></a></li>
+                <li><a className="header-link" href="#">{t("header.home")}</a></li>
+                <li><a className="header-link" href="#">{t("header.logo")}</a></li>
+                <li><a className="header-link" href="#">{t("header.logo")}</a></li>
+                <li><a className="header-link" href="#">{t("header.logo")}</a></li>
+                <li><a className="header-link" href="#">{t("header.logo")}</a></li>
               </ul>
             </div>
         </div>
