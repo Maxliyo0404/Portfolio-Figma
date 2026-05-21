@@ -3,7 +3,7 @@ import "./SectionOne.css";
 import React from 'react'
 import { FaCode } from "react-icons/fa";
 import { FaPaintBrush } from "react-icons/fa";
-
+import { BiBarChartAlt } from "react-icons/bi";
 function SectionOne() {
   const [t, i18n] = useTranslation();
   return (
@@ -25,8 +25,8 @@ function SectionOne() {
               <button className="one-btn">{t("sectionOne.one-btn")}</button>
             </li>
             <li className="one-item">
-              <div className="icon"></div>
-              <h3 className="">{t("sectionOne.one-btn")}</h3>
+              <div className="icon"><BiBarChartAlt /></div>
+              <h3 className="">{t("sectionOne.one-digital")}</h3>
               <p className="one-text">{t("sectionOne.one-text")}</p>
               <button className="one-btn">{t("sectionOne.one-btn")}</button>
             </li>
