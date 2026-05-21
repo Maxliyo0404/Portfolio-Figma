@@ -13,6 +13,9 @@
     "hero-titles": "And I'm a <span class='highlight'>Frontend Developer</span>",
     "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore",
     "hero-btn": "Download CV"
+  },
+  "sectionOne":{
+    "one-title": "Our<span class='highlight'>Services</span>"
   }
 
 }
