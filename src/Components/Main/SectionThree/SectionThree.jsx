@@ -13,6 +13,9 @@ function SectionThree() {
         const email = document.getElementById("email").value
         const phone = document.getElementById("phone").value
         const text = document.getElementById("text").value
+        const textarea = document.getElementById("textarea").value
+        
+         const messageContent = `Name : ${name}\n Email: ${email} \n Phone number: ${phone}\n Text: ${text} \n Textarea: ${textarea}`;
     }
   return (
     <div className="sectionThree">
@@ -29,7 +32,7 @@ function SectionThree() {
               <input id="phone" className="input" type="number" required placeholder={t("sectionThree.phone-placeholder")} />
               <input id="text" className="input" type="text" required placeholder={t("sectionThree.subject-placeholder")} />
             </div>
-                <textarea className="textarea" required placeholder={t("sectionThree.message-placeholder")}></textarea>
+                <textarea id="textarea" className="textarea" required placeholder={t("sectionThree.message-placeholder")}></textarea>
                 <button className="three-btn">{t("sectionThree.btn-send")}</button>
             </form>
             </div>
