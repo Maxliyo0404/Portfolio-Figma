@@ -24,5 +24,16 @@
 },
  "sectionTwo": {
       "two-title": "Последний <span class='sectionTwo-highlight'>Проект </span>"
-    }
+    },
+    "sectionThree": {
+    "three-title": "Связаться <span class='sectionThree-highlight'>со Мной!</span>",
+    "name-placeholder": "Полное имя",
+    "email-placeholder": "Email адрес",
+    "phone-placeholder": "Номер мобильного",
+    "subject-placeholder": "Тема письма",
+    "btn-send": "Отправить сообщение"
+  },
+  "footer": {
+    "footer-link": "Copyright © 2026 от Codehal | Все права защищены."
+  }
 }

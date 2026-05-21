@@ -26,7 +26,16 @@
      "two-title": "Latest <span class='sectionTwo-highlight'>Project</span> "
   },
   "sectionThree":{
-    "thee-title": "Contact  <span class='sectionThree-highlight'>Me!</span> "
+    "thee-title": "Contact  <span class='sectionThree-highlight'>Me!</span> ",
+    "name-placeholder": "Full Name",
+    "email-placeholder": "Email Address",
+    "phone-placeholder": "Mobile Number",
+    "subject-placeholder": "Email Subject",
+    "message-placeholder": "Your Message...",
+    "btn-send": "Send Message"
+  },
+  "footer":{
+    "footer-link": "Copyright © 2026 by Codehal | All Rights Reserved."
   }
 
 

@@ -26,6 +26,14 @@
       "two-title": "So'nggi <span class='sectionTwo-highlight'>Loyihasi</span> "
     },
     "sectionThree": {
-    "three-title": "Men bilan <span class='sectionThree-highlight'>Bog'lanish!</span>"
+    "three-title": "Men bilan <span class='sectionThree-highlight'>Bog'lanish!</span>",
+    "name-placeholder": "To'liq ismingiz",
+    "email-placeholder": "Email manzilingiz",
+    "phone-placeholder": "Telefon raqamingiz",
+    "subject-placeholder": "Xat mavzusi",
+    "btn-send": "Xabarni yuborish"
+  },
+  "footer":{
+    "footer-link": "Copyright © 2026 Codehal tomonidan | Barcha huquqlar himoyalangan."
   }
 }
