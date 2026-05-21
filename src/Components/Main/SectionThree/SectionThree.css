@@ -63,7 +63,7 @@
 .textarea:focus {
     border-color: #00EEFF;
     box-shadow: 0 0 15px rgba(0, 238, 255, 0.25);
-    background-color: #3b4454; /
+    background-color: #3b4454; 
 }
 .input[type="number"]::-webkit-outer-spin-button{ -webkit-appearance: none; margin: 0;} 
 .input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0;}
