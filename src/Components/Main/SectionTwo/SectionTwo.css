@@ -1,0 +1,31 @@
+.two-wrappe{
+  padding:  40px 0;
+
+}
+.two-title{
+    max-width: 290px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.sectionTwo-highlight{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    color: #00EEFF;
+    
+}
+.two-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}

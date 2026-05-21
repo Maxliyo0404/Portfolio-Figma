@@ -10,9 +10,9 @@ function SectionTwo() {
     <div className="sectionTwo">
         <div className="container">
             <div className="two-wrapper">
-              <h2 className="two-title" dangerouslySetInnerHTML={{ __html: t('sectiontwo.two-title') }} />
+              <h2 className="two-title" dangerouslySetInnerHTML={{ __html: t('sectionTwo.two-title') }} />
               <ul className="two-list">
-            {Array(6).fill(0).map((_, indeks) => (
+                 {Array(6).fill(0).map((_, indeks) => (
               <li className="two-item" key={indeks}>
                 <img src={two_lee} alt="rasm" className="two-img" />
               </li>
