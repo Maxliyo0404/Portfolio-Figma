@@ -21,5 +21,8 @@
   "one-digital": "Цифровой маркетинг",
   "one-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iure nisi dolor recusandae voluptas et voluptatibus explicabo ducimus magni at!",
   "one-btn": "Читать далее"
-}
+},
+ "sectionTwo": {
+      "two-title": "Последний Проект <span class='sectionTwo-highlight'>Услуг</span>"
+    }
 }

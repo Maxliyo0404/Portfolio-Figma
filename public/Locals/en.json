@@ -21,6 +21,9 @@
     "one-digital": "Digital Marketing",
     "one-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iure nisi dolor recusandae voluptas et voluptatibus explicabo ducimus magni at!",
     "one-btn" : "Read More"
+  },
+  "sectionTwo":{
+     "two-title": "Latest <span class='sectionTwo-highlight'>Services</span> Project"
   }
 
 }

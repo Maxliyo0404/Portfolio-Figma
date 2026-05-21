@@ -21,5 +21,8 @@
   "one-digital": "Raqamli marketing",
   "one-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iure nisi dolor recusandae voluptas et voluptatibus explicabo ducimus magni at!",
   "one-btn": "Batafsil"
-}
+},
+ "sectionTwo": {
+      "two-title": "So'nggi <span class='sectionTwo-highlight'>Xizmatlar</span> Loyihasi"
+    }
 }
