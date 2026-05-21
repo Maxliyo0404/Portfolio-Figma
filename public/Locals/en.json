@@ -10,12 +10,12 @@
     "hero": {
     "hero-helo": "Hello, it's me",
     "hero-name": "John Kendric",
-    "hero-titles": "And I'm a <span class='highlight'>Frontend Developer</span>",
+    "hero-titles": "And I'm a <span class='hero-highlight'>Frontend Developer</span>",
     "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore",
     "hero-btn": "Download CV"
   },
   "sectionOne":{
-    "one-title": "Our<span class='highlight'>Services</span>",
+    "one-title": "Our<span class='sectionOne-highlight'>Services</span>",
     "one-web": "Web Development",
     "one-graphic": "Graphic Design",
     "one-digital": "Digital Marketing",

@@ -10,12 +10,12 @@
    "hero": {
     "hero-helo": "Salom, bu men",
     "hero-name": "John Kendric",
-    "hero-titles": "Va men <span class='highlight'>Frontend Dasturchiman</span>",
+    "hero-titles": "Va men <span class='hero-highlight'>Frontend Dasturchiman</span>",
     "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore",
     "hero-btn": "CV ni yuklab olish"
   },
   "sectionOne": {
-  "one-title": "Bizning<span class='highlight'>Xizmatlarimiz</span>",
+  "one-title": "Bizning<span class='sectionOne-highlight'>Xizmatlarimiz</span>",
   "one-web": "Veb-dasturlash",
   "one-graphic": "Grafik dizayn",
   "one-digital": "Raqamli marketing",

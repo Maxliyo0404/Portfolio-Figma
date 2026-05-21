@@ -10,7 +10,7 @@ function SectionOne() {
     <div className="sectionOne">
       <div className="container">
         <div className="sectionOne-wrapper">
-          <h2 className="one-title" dangerouslySetInnerHTML={{ __html: t('sectionone.one-title') }} />
+          <h2 className="one-title" dangerouslySetInnerHTML={{ __html: t('sectionOne.one-title') }} />
           <ul className="one-list">
             <li className="one-item">
               <div className="icon"><FaCode /></div>

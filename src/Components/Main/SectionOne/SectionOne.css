@@ -11,7 +11,7 @@
     color: #FFFFFF;
     margin-bottom: 27px;
 }
-.highlight{
+.sectionOne-highlight{
     max-width: 100%;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -19,6 +19,16 @@
     line-height: 100%;
     color: #00EEFF;
     
+}
+.one-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.one-item{
+    max-width: 100%;
+    background: #323946;
+    border: 2px solid #1F242D
 }
 .hero-text{
     max-width: 100%;
