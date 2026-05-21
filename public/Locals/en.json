@@ -24,6 +24,10 @@
   },
   "sectionTwo":{
      "two-title": "Latest <span class='sectionTwo-highlight'>Project</span> "
+  },
+  "sectionThree":{
+    "thee-title": "Contact  <span class='sectionThree-highlight'>Me!</span> "
   }
+
 
 }

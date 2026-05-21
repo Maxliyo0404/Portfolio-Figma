@@ -24,5 +24,8 @@
 },
  "sectionTwo": {
       "two-title": "So'nggi <span class='sectionTwo-highlight'>Loyihasi</span> "
-    }
+    },
+    "sectionThree": {
+    "three-title": "Men bilan <span class='sectionThree-highlight'>Bog'lanish!</span>"
+  }
 }
