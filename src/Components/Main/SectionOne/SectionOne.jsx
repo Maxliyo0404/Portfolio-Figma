@@ -26,7 +26,7 @@ function SectionOne() {
             </li>
             <li className="one-item">
               <div className="one-icon"><BiBarChartAlt /></div>
-              <h3 className="one-teetle">{t("sectionOne.one-digital")}</h3>
+              <h3 className="one-title">{t("sectionOne.one-digital")}</h3>
               <p className="one-text">{t("sectionOne.one-text")}</p>
               <button className="one-btn">{t("sectionOne.one-btn")}</button>
             </li>
