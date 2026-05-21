@@ -6,7 +6,7 @@
     max-width: 290px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -28,4 +28,47 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+}
+.two-item{
+    max-width: 100%;
+}
+.two-img{
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #1F242D;
+     transition: all 0.3s ease;  
+    &:hover{
+        transform: translateY(-5px) scale(1.03); 
+        box-shadow: 0px 0px 20px 5px rgba(0, 238, 255, 0.4);
+        cursor: pointer;
+    }
+
+}
+@media (max-width: 768px) {
+    .two-title, .sectionTwo-highlight {
+        font-size: 32px; /* Sarlavha shriftini biroz kichiklashtiramiz */
+    }
+    
+    .two-list {
+        grid-template-columns: repeat(2, 1fr); /* 3 tadan 2 ta ustunga o'tadi */
+        gap: 20px; /* Masofani biroz kamaytiramiz */
+    }
+}
+
+/* Telefonlar uchun (Ekran 480px dan kichik bo'lganda) */
+@media (max-width: 480px) {
+    .two-wrapper {
+        padding: 20px 0; 
+    }
+
+    .two-title, .sectionTwo-highlight {
+        font-size: 32px; 
+        max-width: 100%; 
+        justify-content: center; 
+    }
+
+    .two-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
 }
