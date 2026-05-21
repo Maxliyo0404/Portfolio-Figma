@@ -59,29 +59,22 @@
 .textarea::placeholder {
     color: #9ca3af;
 }
-
-/* Input ichiga bosilganda (Focus holati) */
 .input:focus, 
 .textarea:focus {
     border-color: #00EEFF;
     box-shadow: 0 0 15px rgba(0, 238, 255, 0.25);
-    background-color: #3b4454; /* Fokus bo'lganda fon biroz ochiladi */
+    background-color: #3b4454; /
 }
-
-/* Number input chetidagi strelkalarni olib tashlash */
 .input[type="number"]::-webkit-outer-spin-button,
 .input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
-/* TEXTAREA MAXSUS STILI */
 .textarea {
     height: 200px;
-    resize: none; /* Foydalanuvchi o'lchamini tortib buza olmaydi */
+    resize: none; 
 }
 
-/* TUGMA (BUTTON) STILI */
 .three-btn {
     display: inline-block;
     padding: 14px 32px;
@@ -95,63 +88,45 @@
     cursor: pointer;
     box-shadow: 0 0 10px #00EEFF;
     transition: all 0.3s ease;
-    align-self: center; /* Tugmani o'rtaga joylashtiradi */
+    align-self: center; 
     margin-top: 10px;
 }
-
-/* Tugmaga sichqoncha kelganda */
 .three-btn:hover {
     box-shadow: 0 0 25px #00EEFF;
     transform: translateY(-2px);
 }
-
-/* Tugma bosilganda (Click) */
 .three-btn:active {
     transform: translateY(0);
 }
-
-
-/* ==========================================================================
-   RESPONSIVE (MOBIL VA PLANSHET) VERSIYA
-   ========================================================================== */
-
-/* Planshetlar uchun (Ekran kengligi 768px dan kichik bo'lganda) */
 @media (max-width: 768px) {
     .three-title {
-        font-size: 36px; /* Sarlavha biroz kichrayadi */
+        font-size: 36px; 
         margin-bottom: 30px;
     }
-    
     .input, .textarea {
-        padding: 14px 18px; /* Input ichki joyi biroz qisqaradi */
+        padding: 14px 18px; 
         font-size: 15px;
     }
 }
-
-/* Mobil telefonlar uchun (Ekran kengligi 520px dan kichik bo'lganda) */
 @media (max-width: 520px) {
     .sectionThree {
-        padding: 40px 15px; /* Ekran chetidan bo'shliq qolishi uchun */
+        padding: 40px 15px; 
     }
 
     .three-title {
-        font-size: 28px; /* Telefon ekranga mos sarlavha */
-        flex-wrap: wrap; /* Agar sig'masa yozuv pastga tushadi */
+        font-size: 28px;
+        flex-wrap: wrap;
         gap: 6px;
     }
-
-    /* INPUT GROUP - ENG ASOSIY QISM */
     .input-group {
-        flex-direction: column; /* Yonma-yon turgan inputlar USTMA-UST tushadi */
-        gap: 20px; /* Ular orasidagi masofa saqlanadi */
+        flex-direction: column;
+        gap: 20px; 
     }
-
     .textarea {
-        height: 160px; /* Telefonda xabar yozish joyi biroz kichrayadi */
+        height: 160px;
     }
-
     .three-btn {
-        width: 100%; /* Tugma telefonda to'liq ekran eni bo'ylab cho'ziladi */
+        width: 100%; 
         padding: 16px;
     }
 }
