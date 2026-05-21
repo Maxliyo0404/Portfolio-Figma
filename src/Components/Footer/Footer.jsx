@@ -10,8 +10,7 @@ function Footer() {
         <div className="container">
             <div className="footer-wrapper" id="footer">
                 <a className="footer-link" href="#">{t("footer.footer-link")}</a>
-                <a className="footer-icon" href="footer"><FaArrowUp /></a>
-            
+                <a className="footer-icon" href="footer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><FaArrowUp /></a>      
             </div>
         </div>
     </div>

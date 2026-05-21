@@ -12,12 +12,16 @@
     font-size: 16px;
     line-height: 100%;
     color: #FFFFFF;
+    &:hover{
+        color: #00EEFF;
+    }
 }
 .footer-icon{
     width: 40px;
     height: 40px;
     border-radius: 8px;
     background: #00EEFF;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,5 +30,6 @@
     &:hover{
       box-shadow: 0 0 20px #00EEFF;
       transform: translateY(-3px);
+      
     }
 }
