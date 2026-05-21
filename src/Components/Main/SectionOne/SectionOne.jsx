@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import "./SectionOne.css";
 import React from 'react'
+import { FaCode } from "react-icons/fa";
+import { FaPaintBrush } from "react-icons/fa";
 
 function SectionOne() {
   const [t, i18n] = useTranslation();
@@ -10,6 +12,18 @@ function SectionOne() {
         <div className="sectionOne-wrapper">
           <h2 className="one-title">{t("sectionOne.one-title")}</h2>
           <ul className="one-list">
+            <li className="one-item">
+              <div className="icon"><FaCode /></div>
+              <h3 className="">{t("sectionOne.one-web")}</h3>
+              <p className="one-text">{t("sectionOne.one-text")}</p>
+              <button className="one-btn">{t("sectionOne.one-btn")}</button>
+            </li>
+            <li className="one-item">
+              <div className="icon"><FaPaintBrush /></div>
+              <h3 className="">{t("sectionOne.one-graphic")}</h3>
+              <p className="one-text">{t("sectionOne.one-text")}</p>
+              <button className="one-btn">{t("sectionOne.one-btn")}</button>
+            </li>
             <li className="one-item">
               <div className="icon"></div>
               <h3 className="">{t("sectionOne.one-btn")}</h3>
