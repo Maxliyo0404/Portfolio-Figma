@@ -13,5 +13,13 @@
     "hero-titles": "И я <span class='highlight'>Frontend Разработчик</span>",
     "hero-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore",
     "hero-btn": "Скачать CV"
-  }
+  },
+  "sectionOne": {
+  "one-title": "Наши<span class='highlight'>Услуги</span>",
+  "one-web": "Веб-разработка",
+  "one-graphic": "Графический дизайн",
+  "one-digital": "Цифровой маркетинг",
+  "one-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iure nisi dolor recusandae voluptas et voluptatibus explicabo ducimus magni at!",
+  "one-btn": "Читать далее"
+}
 }

@@ -15,7 +15,12 @@
     "hero-btn": "Download CV"
   },
   "sectionOne":{
-    "one-title": "Our<span class='highlight'>Services</span>"
+    "one-title": "Our<span class='highlight'>Services</span>",
+    "one-web": "Web Development",
+    "one-graphic": "Graphic Design",
+    "one-digital": "Digital Marketing",
+    "one-text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis iure nisi dolor recusandae voluptas et voluptatibus explicabo ducimus magni at!",
+    "one-btn" : "Read More"
   }
 
 }
