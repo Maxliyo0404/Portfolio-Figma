@@ -90,7 +90,7 @@
 }
 
 /* 2. Kichik planshet va katta telefonlar (Ekran kengligi 768px dan kichik bo'lganda) */
-@media (max-width: 768px) {
+@media (max-width:713px) {
     .one-titles, 
     .sectionOne-highlight {
         font-size: 36px; /* Sarlavha biroz kichrayadi */
@@ -139,5 +139,8 @@
     .one-text {
         font-size: 14px; 
         line-height: 20px;
+    }
+    .one-btn{
+        padding: 11px 24px;
     }
 }
