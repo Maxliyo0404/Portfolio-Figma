@@ -26,7 +26,7 @@
      "two-title": "Latest <span class='sectionTwo-highlight'>Project</span> "
   },
   "sectionThree":{
-    "thee-title": "Contact  <span class='sectionThree-highlight'>Me!</span> ",
+    "three-title": "Contact  <span class='sectionThree-highlight'>Me!</span> ",
     "name-placeholder": "Full Name",
     "email-placeholder": "Email Address",
     "phone-placeholder": "Mobile Number",

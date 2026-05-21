@@ -1,0 +1,164 @@
+
+.sectionThree {
+    padding: 60px 0;
+    background-color: #1f242d; 
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+.three-wrapper {
+    width: 100%;
+    max-width: 700px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.three-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.sectionThree-highlight {
+    color: #00EEFF;
+    text-shadow: 0 0 10px rgba(0, 238, 255, 0.3);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 100%;
+}
+
+/* Inputlarni juft qilib yonma-yon turishi */
+.input-group {
+    display: flex;
+    gap: 20px; /* Ikki input orasidagi masofa */
+    width: 100%;
+}
+
+/* INPUT VA TEXTAREA UMUMIY STILLARI */
+.input, 
+.textarea {
+    width: 100%;
+    padding: 16px 20px;
+    background-color: #323946; /* Input ichki foni */
+    border: 2px solid transparent;
+    border-radius: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Input ichidagi yordamchi yozuv (placeholder) rangi */
+.input::placeholder,
+.textarea::placeholder {
+    color: #9ca3af;
+}
+
+/* Input ichiga bosilganda (Focus holati) */
+.input:focus, 
+.textarea:focus {
+    border-color: #00EEFF;
+    box-shadow: 0 0 15px rgba(0, 238, 255, 0.25);
+    background-color: #3b4454; /* Fokus bo'lganda fon biroz ochiladi */
+}
+
+/* Number input chetidagi strelkalarni olib tashlash */
+.input[type="number"]::-webkit-outer-spin-button,
+.input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* TEXTAREA MAXSUS STILI */
+.textarea {
+    height: 200px;
+    resize: none; /* Foydalanuvchi o'lchamini tortib buza olmaydi */
+}
+
+/* TUGMA (BUTTON) STILI */
+.three-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: #00EEFF;
+    color: #323946;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00EEFF;
+    transition: all 0.3s ease;
+    align-self: center; /* Tugmani o'rtaga joylashtiradi */
+    margin-top: 10px;
+}
+
+/* Tugmaga sichqoncha kelganda */
+.three-btn:hover {
+    box-shadow: 0 0 25px #00EEFF;
+    transform: translateY(-2px);
+}
+
+/* Tugma bosilganda (Click) */
+.three-btn:active {
+    transform: translateY(0);
+}
+
+
+/* ==========================================================================
+   RESPONSIVE (MOBIL VA PLANSHET) VERSIYA
+   ========================================================================== */
+
+/* Planshetlar uchun (Ekran kengligi 768px dan kichik bo'lganda) */
+@media (max-width: 768px) {
+    .three-title {
+        font-size: 36px; /* Sarlavha biroz kichrayadi */
+        margin-bottom: 30px;
+    }
+    
+    .input, .textarea {
+        padding: 14px 18px; /* Input ichki joyi biroz qisqaradi */
+        font-size: 15px;
+    }
+}
+
+/* Mobil telefonlar uchun (Ekran kengligi 520px dan kichik bo'lganda) */
+@media (max-width: 520px) {
+    .sectionThree {
+        padding: 40px 15px; /* Ekran chetidan bo'shliq qolishi uchun */
+    }
+
+    .three-title {
+        font-size: 28px; /* Telefon ekranga mos sarlavha */
+        flex-wrap: wrap; /* Agar sig'masa yozuv pastga tushadi */
+        gap: 6px;
+    }
+
+    /* INPUT GROUP - ENG ASOSIY QISM */
+    .input-group {
+        flex-direction: column; /* Yonma-yon turgan inputlar USTMA-UST tushadi */
+        gap: 20px; /* Ular orasidagi masofa saqlanadi */
+    }
+
+    .textarea {
+        height: 160px; /* Telefonda xabar yozish joyi biroz kichrayadi */
+    }
+
+    .three-btn {
+        width: 100%; /* Tugma telefonda to'liq ekran eni bo'ylab cho'ziladi */
+        padding: 16px;
+    }
+}
