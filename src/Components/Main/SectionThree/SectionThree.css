@@ -26,32 +26,26 @@
     justify-content: center;
     gap: 12px;
 }
-
 .sectionThree-highlight {
     color: #00EEFF;
     text-shadow: 0 0 10px rgba(0, 238, 255, 0.3);
 }
-
 .form {
     display: flex;
     flex-direction: column;
     gap: 20px; 
     width: 100%;
 }
-
-/* Inputlarni juft qilib yonma-yon turishi */
 .input-group {
     display: flex;
-    gap: 20px; /* Ikki input orasidagi masofa */
+    gap: 20px; 
     width: 100%;
 }
-
-/* INPUT VA TEXTAREA UMUMIY STILLARI */
 .input, 
 .textarea {
     width: 100%;
     padding: 16px 20px;
-    background-color: #323946; /* Input ichki foni */
+    background-color: #323946;
     border: 2px solid transparent;
     border-radius: 12px;
     font-family: "Poppins", sans-serif;
@@ -61,7 +55,6 @@
     transition: all 0.3s ease;
 }
 
-/* Input ichidagi yordamchi yozuv (placeholder) rangi */
 .input::placeholder,
 .textarea::placeholder {
     color: #9ca3af;
