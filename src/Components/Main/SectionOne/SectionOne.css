@@ -82,3 +82,62 @@
     }
 
 }
+@media (max-width: 1024px) {
+    .one-list {
+        grid-template-columns: repeat(2, 1fr); /* 3 tadan 2 ta ustunga o'tadi */
+        gap: 20px;
+    }
+}
+
+/* 2. Kichik planshet va katta telefonlar (Ekran kengligi 768px dan kichik bo'lganda) */
+@media (max-width: 768px) {
+    .one-titles, 
+    .sectionOne-highlight {
+        font-size: 36px; /* Sarlavha biroz kichrayadi */
+    }
+
+    .one-titles {
+        max-width: 240px; /* Markazda chiroyli turishi uchun cheklov */
+    }
+
+    .one-list {
+        grid-template-columns: 1fr; /* Ustunlar bittalik bo'lib qoladi */
+        max-width: 450px; /* Kartochkalar juda enli bo'lib ketmasligi uchun */
+        margin: 0 auto; /* Kartochkalar ro'yxatini o'rtalash */
+    }
+    
+    .one-item {
+        padding: 30px 20px; /* Ichki bo'shliq biroz kamayadi */
+    }
+}
+
+
+@media (max-width: 480px) {
+    .sectionOne-wrapper {
+        padding: 30px 0; 
+    }
+     .one-titles{
+        max-width: 100%;
+        margin-bottom: 20px;
+        font-size: 32px;
+        line-height: 35px;
+   }
+    .sectionOne-highlight {
+        font-size: 32px; 
+         line-height: 35px;
+    }
+
+    .one-item{
+        padding: 30px 12px;
+    }
+    .one-title {
+        font-size: 22px;
+        line-height: 25px;
+         
+    }
+
+    .one-text {
+        font-size: 14px; 
+        line-height: 20px;
+    }
+}
