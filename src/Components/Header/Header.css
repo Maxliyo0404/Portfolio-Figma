@@ -105,7 +105,7 @@
         gap: 40px;
     }
     .header-nav.active {
-        top: 0;
+        top: 0 !important;
     }
 
     .header-list {
