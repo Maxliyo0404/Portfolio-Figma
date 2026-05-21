@@ -31,6 +31,7 @@
     "email-placeholder": "Email manzilingiz",
     "phone-placeholder": "Telefon raqamingiz",
     "subject-placeholder": "Xat mavzusi",
+    "message-placeholder": "Sizning xabaringiz...",
     "btn-send": "Xabarni yuborish"
   },
   "footer":{

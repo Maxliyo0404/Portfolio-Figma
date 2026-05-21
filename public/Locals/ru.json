@@ -31,6 +31,7 @@
     "email-placeholder": "Email адрес",
     "phone-placeholder": "Номер мобильного",
     "subject-placeholder": "Тема письма",
+    "message-placeholder": "Ваше сообщение...",
     "btn-send": "Отправить сообщение"
   },
   "footer": {
