@@ -5,15 +5,16 @@
     text-decoration: none;
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
    background: #1F242D;
-
 }
 .container{
      max-width: 1200px;
     margin:  0 auto;
     padding:  0 20px;
-    border: 4px solid red;
 }
 .hero-wrapper{
     padding: 50px 0;

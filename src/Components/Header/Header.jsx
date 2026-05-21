@@ -18,11 +18,11 @@ function Header() {
               <a className="logo" href="#">{t("header.logo")}</a>
              <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
                   <ul className="header-list">
-                    <li><a className="header-link" href="#">{t("header.home")}</a></li>
-                    <li><a className="header-link" href="#">{t("header.about")}</a></li>
-                    <li><a className="header-link">{t("header.services")}</a></li>
-                    <li><a className="header-link" href="#">{t("header.portfolio")}</a></li>
-                    <li><a className="header-link">{t("header.contact")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.home")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.about")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.services")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.portfolio")}</a></li>
+                    <li><a className="header-link" href="footer">{t("header.contact")}</a></li>
                   </ul>
         
                   <div className="header-actions">

@@ -8,9 +8,10 @@ function Footer() {
   return (
     <div className="footer">
         <div className="container">
-            <div className="footer-wrapper">
+            <div className="footer-wrapper" id="footer">
                 <a className="footer-link" href="#">{t("footer.footer-link")}</a>
-                <div className="footer-icon"><FaArrowUp /></div>
+                <a className="footer-icon" href="footer"><FaArrowUp /></a>
+            
             </div>
         </div>
     </div>
