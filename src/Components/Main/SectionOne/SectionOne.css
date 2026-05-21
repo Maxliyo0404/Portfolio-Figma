@@ -1,0 +1,31 @@
+.sectionOne-wrapper{
+    padding: 40px 0;
+
+}
+.one-title{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.highlight{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    color: #00EEFF;
+    
+}
+.hero-text{
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
