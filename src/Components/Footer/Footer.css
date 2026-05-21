@@ -12,6 +12,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #FFFFFF;
+    transition: color 0.3s ease;
     &:hover{
         color: #00EEFF;
     }
@@ -31,5 +32,19 @@
       box-shadow: 0 0 20px #00EEFF;
       transform: translateY(-3px);
       
+    }
+}
+@media (max-width: 520px) {
+    .footer-wrapper {
+        flex-direction: column;   
+        gap: 20px;                
+        text-align: center;       
+        margin-bottom: 40px;    
+        padding: 20px 15px;       
+    }
+
+    .footer-link {
+        font-size: 14px;          
+        line-height: 140%;      
     }
 }
